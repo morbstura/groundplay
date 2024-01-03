@@ -18,7 +18,7 @@ describe('template spec', () => {
       it('verify that there is content in child frame',() => {
         cy.on('uncaught:exception', (err, runnable) => { 
             return false
-            cy.visit
+            cy.visitn
             cy.get('#frame1')
             cy.contains('Child Iframe').should("exist")
 
