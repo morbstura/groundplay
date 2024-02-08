@@ -1,0 +1,6 @@
+- name: ZAP Baseline Scan
+
+
+              
+  uses: zaproxy/action-baseline@v0.11.0
+
